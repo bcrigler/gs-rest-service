@@ -5,12 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.ResultSet;
-import api.utilities.Converter;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-
 @Controller    // This means that this class is a Controller
 // @RequestMapping(path="/users") // This means URL's start with /user (after Application path)
 public class UsersController {
